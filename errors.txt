@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/rpy/script.rpy", line 1: positional argument follows keyword argument
+    Character('雨音',color="#f0a12b", image"yuyin")
+                                          ^
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Sat Mar 11 20:40:48 2023

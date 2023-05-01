@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/rpy/script.rpy", line 205, in script
+    c1n5"我挠挠头，思考着如何跟她进行解释"
+Exception: Sayer 'c1n5' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/rpy/script.rpy", line 205, in script
+    c1n5"我挠挠头，思考着如何跟她进行解释"
+  File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'c1n5' is not defined.
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.0.3.22090809
+梦回宝岛 1.2.0
+Sat Mar 11 22:33:32 2023
